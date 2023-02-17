@@ -12,14 +12,16 @@
     <header>
         <nav>
             <ul class='nav-bar'>
+
+                <h1 id="header-h1">Portfolio</h1>
+
                 <li class='logo'><a href='#'></a></li>
                 <input type='checkbox' id='check' />
                 <span class="menu">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#header-h1">Sobre mim</a></li>
+                    <li><a href="#tecnologia">Tecnologias</a></li>
+                    <li><a href="#Projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
                     <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
                 </span>
                 <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
@@ -28,7 +30,96 @@
     </header>
 
     <section>
-
+        <div id="perfil">
+            <img src="/fotos/images.jfif" alt="">
+            <div>
+                <p>Ola, eu sou o <br>
+                    Emerson Rodrigues</p>
+                <span>Desenvolvedor front-end</span>
+            </div>
+        </div>
     </section>
+
+    <section>
+       <nav>
+        <div id="sobre-mim">
+            <h2>Sobre mim</h2>
+            <p>Meu nome é Emerson Rodrigues, tenho 16 anos,atualmente 
+                tenho experiência em Desenvolvimento Web, estou estudando
+                para me tornar um Full Stack.Sempre gostei da tecnologia,
+                onde quero cada vez mais me aprofundar nessa area.</p>
+        </div>
+       </nav>
+    </section>
+
+    <section id="habilidades">
+        <div id="tecnologia">
+            <h2>Tecnologias que utilizo</h2>
+        </div>
+
+    <div class="biblioteca-div">
+            
+        <div class="div-tecnologia">
+            <span>HTML</span>
+            <img src="/fotos/html.svg" alt="">
+        </div>
+
+        <div class="div-tecnologia">
+            <span>CSS</span>
+            <img src="/fotos/css.svg" alt="">
+        </div>
+
+        <div class="div-tecnologia">
+            <span>JavaScript</span>
+            <img src="/fotos/javascript.svg" alt="">
+        </div>
+
+    </div>
+
+    <div class="biblioteca-div">
+        <div class="div-tecnologia">
+            <span>Figma</span>
+            <img src="/fotos/png-transparent-figma-logo-brand-logos-brands-in-colors-icon-thumbnail.png" alt="">
+        </div>
+
+        <div class="div-tecnologia">
+            <span>React.js</span>
+            <img src="/fotos/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png" alt="">
+        </div>
+
+        <div class="div-tecnologia">
+            <span>Java</span>
+            <img src="/fotos/223-2231845_logo-java-java-icon.png" alt="">
+        </div>
+    </div>
+    </section>
+
+    <section>
+       <nav>
+        <div id="Projetos">
+            <h2>Projetos</h2>
+                <div class="projetos-imagens">
+                    <img src="/fotos/image 1.png" alt="">
+                    <img src="/fotos/image 2.png" alt="" class="padaria">
+                    <img src="/fotos/image 4.png" alt="">
+                </div>
+                <a href="https://github.com/tecnicoemerson">Se deseja ver mais, acesse meu GitHub</a>
+        </div>
+       </nav>
+    </section>
+
+    <footer>
+        <nav>
+            <div id="contato">
+                <h2>Contato</h2>
+                <div>
+                   <a href=""> <img src="/fotos/png-clipart-social-media-logo-linkedin-computer-icons-social-media-blue-text.png" alt=""></a>
+                   <a href=""> <img src="/fotos/854957_email_512x512.png" alt=""></a>
+                   <a href=""> <img src="/fotos/github_logo_icon_147285.png" alt=""></a>
+                    <a href=""><img src="/fotos/discord-mascot.png" alt=""></a>
+                </div>
+            </div>
+        </nav>
+    </footer>
 </body>
 </html>

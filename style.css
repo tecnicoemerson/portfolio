@@ -5,14 +5,16 @@
     vertical-align: baseline;
     list-style: none;
     font-family: Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: "Poppins", sans-serif;
-    
+    background-color: #0A1123;
+    color: white;
 }
 .nav-bar {
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,11 +52,13 @@ body {
     cursor: pointer;
     font-size: 1.5rem;
     display: none;
-    color: white;
+    line-height: 3;
+    margin-right: 1%;
+    margin-top:-2px;
 }
 .open-menu {
     top: 50%;
-    right: 96%;
+    right: 20px;
     transform: translateY(-50%);
 }
 .close-menu {
@@ -66,7 +70,7 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 80%;
+        width: 30%;
         height: 100vh;
         position: fixed;
         top: 0;
@@ -79,3 +83,131 @@ body {
     .menu li a {padding: 10px;}
     .open-menu , .close-menu {display: block;}
     #check:checked ~ .menu {right: 0;}
+
+    #header-h1 {
+        margin: auto;
+    }
+
+    #perfil img {
+        width: 15%;
+        margin-top: 6%;
+        margin-left: 65%;
+        border-radius: 50%;
+    }
+
+    #perfil p {
+        font-size: 22px;
+        margin-top: -9%;
+        margin-left: 10%;
+    }
+
+    #perfil span {
+        font-size: 13px;
+        margin-left: 11%;
+    }
+
+    #sobre-mim h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+        margin-bottom: 20px;
+    }
+
+    #sobre-mim p {
+        width: 443px;
+        margin: auto;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.74);
+    }
+
+    #tecnologia {
+        display: flex;
+        justify-content: center;
+        margin-top: 4%;
+    }
+
+    #habilidades {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .biblioteca-div {
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+    }
+
+    .biblioteca-div img {
+        width: 40px;
+    }
+    
+    .div-tecnologia {
+        margin-top: 55px;
+        background: rgba(20, 30, 57, 0.98);
+        border-radius: 25px; 
+        width: 230px;
+        height: 150px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div-tecnologia span {
+        margin-bottom: 10px;
+    }
+
+    #Projetos {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    
+    #Projetos h2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+    
+    .projetos-imagens img {
+        width: 460px;
+        height: 300px;
+    }
+    
+    #Projetos a{
+        color:white;
+        display: flex;
+        margin-top: 5px;
+        justify-content: center;
+    }
+
+    .padaria {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #contato{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contato h2{
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+
+    #contato img{
+        width: 40px;
+        height: 40px;
+        margin: 0 10px;
+    }
