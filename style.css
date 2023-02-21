@@ -237,6 +237,11 @@ body {
             margin: auto;
         } 
 
+        #perfil span {
+            font-size: 13px;
+            margin: auto;
+        }
+
         #sobre-mim {
             margin: auto;
         }
