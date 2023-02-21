@@ -229,13 +229,17 @@ body {
         }
 
         #perfil img {
-            width: 40%;
+            width: 50%;
             margin: auto;
         }
 
         #perfil p, span {
             margin: auto;
         } 
+
+        #perfil p {
+            margin-top: 10px;
+        }
 
         #perfil span {
             font-size: 13px;
